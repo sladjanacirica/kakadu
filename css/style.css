@@ -1,0 +1,253 @@
+
+@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" );
+@import url("https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet");
+
+body {
+  padding-top: 54px;
+}
+/*.content  {
+  text-align:center;
+  font-size: 80px;
+  padding-top:20px;
+  padding-bottom:10px;
+}*/
+
+h1{	
+font-family: 'Saira Extra Condensed', sans-serif;
+font-size: 8rem;
+font-weight: 900;
+}
+
+h2{
+text-align: center;
+padding-bottom:20px;
+}
+
+.col-md-7 img:hover{
+ filter: hue-rotate(180deg);;	
+}
+
+.card-img-top{
+	width:538px;
+	height:300px;
+}
+.col-md-7 img{
+	width:604px;
+	height:340px;
+}
+.carousel-item {
+	height:600px;
+}
+.card-header{
+	background-color:#fff;
+}
+.footer {
+    margin-top:80px;
+	background-color:#000 ;
+	color:#fff;
+	text-align:center;
+	
+}
+.footer p{
+    padding-top:15px;
+	padding-bottom:15px;
+}
+#potpis{
+	font-family: 'Lobster', cursive;
+	text-align:right;
+	font-weight:500;
+}
+.slike img{
+	width:500px;
+    height:400px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.navbar-toggler {
+    
+    background-color: #ff8000;
+    border: 1px solid black;
+    border-radius: .25rem;
+}
+
+.i{
+    color:red;
+	
+	font-size:40px;
+
+	
+}
+.row ul li{
+list-style-type: circle ;
+
+}
+.name {
+	
+	text-align: center;
+	padding-bottom:20px;
+}
+
+a{
+	color:#000;
+}
+a:hover{
+	color:#ff8000;
+}
+
+#logo{
+	float:left;
+}
+#logo img{
+	width:180px;
+	height:100px;
+}
+.breadcrumb{
+	padding-top:70px;
+	background-color:#ffff00;
+}
+
+
+.slikamala{
+    text-align:center;
+
+}
+
+.slikamala img{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 4s, height 6s; 
+    transition: width 4s, height 6s;
+	
+}
+
+.slikamala img:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.container,
+.content {
+	margin: auto;
+}
+.main-header {
+	text-align: center;
+	padding: 2.8em 0 3.8em;
+}
+.cube-container {
+	max-width: 200px;
+	text-align: center;
+	margin: 0 auto 4.5em;
+}
+
+
+.photo-desc {
+	font-size: .85em;
+	color: #fff;
+	padding: 1.1em 1em 0;
+	background: #fff;
+}
+
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+
+@media (min-width: 769px) {
+	.cube-container {
+		float: left;
+		margin-left: 16.6%;
+	}
+}
+@media (min-width: 1025px) {
+	.cube-container:first-child {
+		margin-left: 0;
+	}
+	.cube-container:last-child{
+		float: right;
+	}
+	.content {
+		max-width: 900px;
+		margin: auto;
+	}
+}
+
+
+
+.button {
+	transition: background .3s;
+}
+.button:hover {
+	background: rgba(74,137,202, 1);
+}
+
+	  
+@media screen and (max-width: 1024px) {
+	
+
+#mapa {
+	width:auto;
+	
+}
+
+
+
+
+@media screen and (max-width: 780px) {
+	
+
+#mapa iframe{
+	width:360px;
+	height:300px;
+}
+
+
+@media screen and (max-width: 600px) {
+	
+#carouselExampleIndicators{
+	width:auto;
+	height:auto;
+}
+}	
+
+
+
+@media screen and (max-width: 550px) {
+	.slike img{
+	margin:0px auto;
+	width:320px;
+    height:250px;
+}
+}
+@media screen and (max-width: 400px) {
+	.slike img{
+	width:250px;
+	height:150px;
+    
+}
+}
+
+
+
